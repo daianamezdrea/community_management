@@ -55,7 +55,7 @@ function drawChart() {
     var data = google.visualization.arrayToDataTable([
         ['Job Status', 'Total'],
         ['Success', 3494],
-        ['Failure', 45]
+        ['Failure', 46]
     ]);
     var options = {
         title: 'Runs Overview',
