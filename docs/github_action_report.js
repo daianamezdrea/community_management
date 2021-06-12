@@ -54,8 +54,8 @@ google.charts.load("current", { packages: ["corechart"] });
 function drawChart() {
     var data = google.visualization.arrayToDataTable([
         ['Job Status', 'Total'],
-        ['Success', 3490],
-        ['Failure', 52]
+        ['Success', 3484],
+        ['Failure', 56]
     ]);
     var options = {
         title: 'Runs Overview',
