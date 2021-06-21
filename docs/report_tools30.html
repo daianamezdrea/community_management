@@ -178,7 +178,7 @@ ga('set', 'anonymizeIp', true);
 
   
       
-        <td>63</td>
+        <td>67</td>
       
   
   
@@ -225,7 +225,7 @@ Currently leaving as is, if this is something your keen on getting merged and up
 
   
       
-        <td>52</td>
+        <td>56</td>
       
   
   
@@ -234,6 +234,107 @@ Currently leaving as is, if this is something your keen on getting merged and up
   
       
         <td>1</td>
+      
+  
+  
+  
+
+  
+      
+        <td>false</td>
+      
+  
+  
+  
+
+  
+      
+        <td>true</td>
+      
+  
+  
+  </tr>
+
+  <tr>
+  
+  
+
+  
+      <td><a target ="_blank" href='https://github.com/puppetlabs/iac'>IAC Blog</a></td>
+  
+  
+  
+
+  
+      
+  
+  
+  
+
+  
+      <td><a target ="_blank" href='https://github.com/puppetlabs/iac/pull/242'>242</a></td>
+  
+  
+  
+
+  
+      
+        <td>47</td>
+      
+  
+  
+  
+
+  
+      
+        <td>pmcmaw <span class='label label-primary'>iac</span> <span class='label label-warning'>puppet</span></td>
+      
+  
+  
+  
+
+  
+      
+        <td>Relocating contributing guidelines to docs site </td>
+      
+  
+  
+  
+  <td>
+  <div class="content hideContent">
+     Thank you for your feedback @binford2k and @DavidS :-) 
+I have now addressed your comments. 
+</div>
+ <div class="show-more">
+        <a href="#">Show more</a>
+    </div></td>
+
+
+  
+      
+  
+  
+  
+
+  
+      
+        <td>pmcmaw</td>
+      
+  
+  
+  
+
+  
+      
+        <td>32</td>
+      
+  
+  
+  
+
+  
+      
+        <td>2</td>
       
   
   
@@ -279,7 +380,7 @@ Currently leaving as is, if this is something your keen on getting merged and up
 
   
       
-        <td>229</td>
+        <td>233</td>
       
   
   
@@ -325,7 +426,7 @@ Currently leaving as is, if this is something your keen on getting merged and up
 
   
       
-        <td>51</td>
+        <td>55</td>
       
   
   
@@ -372,6 +473,111 @@ Currently leaving as is, if this is something your keen on getting merged and up
   
 
   
+      <td><a target ="_blank" href='https://github.com/rodjek/rspec-puppet/pull/821'>821</a></td>
+  
+  
+  
+
+  
+      
+        <td>97</td>
+      
+  
+  
+  
+
+  
+      
+        <td>ekohl <span class='badge badge-secondary'>vox</span></td>
+      
+  
+  
+  
+
+  
+      
+        <td>Add a transitive test property</td>
+      
+  
+  
+  
+  <td>
+  <div class="content hideContent">
+     It is my impression that it relies on some resource triggering the notify. So if you have:
+```puppet
+Class['A'] ~> Class['B'] ~> Class['C']
+```
+
+Then it works if there's a resource inside `Class['B']` that triggers a refresh. However, we've seen the edge case where it wasn't. Perhaps classes also behave different than resources.
+</div>
+ <div class="show-more">
+        <a href="#">Show more</a>
+    </div></td>
+
+
+  
+      
+  
+  
+  
+
+  
+      
+        <td>ekohl</td>
+      
+  
+  
+  
+
+  
+      
+        <td>41</td>
+      
+  
+  
+  
+
+  
+      
+        <td>4</td>
+      
+  
+  
+  
+
+  
+      
+        <td>true</td>
+      
+  
+  
+  
+
+  
+      
+        <td>false</td>
+      
+  
+  
+  </tr>
+
+  <tr>
+  
+  
+
+  
+      <td><a target ="_blank" href='https://github.com/rodjek/rspec-puppet'>rspec-puppet</a></td>
+  
+  
+  
+
+  
+      
+  
+  
+  
+
+  
       <td><a target ="_blank" href='https://github.com/rodjek/rspec-puppet/pull/555'>555</a></td>
   
   
@@ -379,7 +585,7 @@ Currently leaving as is, if this is something your keen on getting merged and up
 
   
       
-        <td>1443</td>
+        <td>1447</td>
       
   
   
@@ -425,7 +631,7 @@ Currently leaving as is, if this is something your keen on getting merged and up
 
   
       
-        <td>52</td>
+        <td>56</td>
       
   
   
@@ -479,7 +685,7 @@ Currently leaving as is, if this is something your keen on getting merged and up
 
   
       
-        <td>1322</td>
+        <td>1326</td>
       
   
   
@@ -525,7 +731,7 @@ Currently leaving as is, if this is something your keen on getting merged and up
 
   
       
-        <td>42</td>
+        <td>46</td>
       
   
   
@@ -550,111 +756,6 @@ Currently leaving as is, if this is something your keen on getting merged and up
   
       
         <td>true</td>
-      
-  
-  
-  </tr>
-
-  <tr>
-  
-  
-
-  
-      <td><a target ="_blank" href='https://github.com/rodjek/rspec-puppet'>rspec-puppet</a></td>
-  
-  
-  
-
-  
-      
-  
-  
-  
-
-  
-      <td><a target ="_blank" href='https://github.com/rodjek/rspec-puppet/pull/821'>821</a></td>
-  
-  
-  
-
-  
-      
-        <td>93</td>
-      
-  
-  
-  
-
-  
-      
-        <td>ekohl <span class='badge badge-secondary'>vox</span></td>
-      
-  
-  
-  
-
-  
-      
-        <td>Add a transitive test property</td>
-      
-  
-  
-  
-  <td>
-  <div class="content hideContent">
-     It is my impression that it relies on some resource triggering the notify. So if you have:
-```puppet
-Class['A'] ~> Class['B'] ~> Class['C']
-```
-
-Then it works if there's a resource inside `Class['B']` that triggers a refresh. However, we've seen the edge case where it wasn't. Perhaps classes also behave different than resources.
-</div>
- <div class="show-more">
-        <a href="#">Show more</a>
-    </div></td>
-
-
-  
-      
-  
-  
-  
-
-  
-      
-        <td>ekohl</td>
-      
-  
-  
-  
-
-  
-      
-        <td>37</td>
-      
-  
-  
-  
-
-  
-      
-        <td>4</td>
-      
-  
-  
-  
-
-  
-      
-        <td>true</td>
-      
-  
-  
-  
-
-  
-      
-        <td>false</td>
       
   
   
